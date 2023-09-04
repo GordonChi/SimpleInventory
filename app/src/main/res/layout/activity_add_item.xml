@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/itemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Name"/>
+    <EditText
+        android:id="@+id/itemId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item ID"/>
+    <EditText
+        android:id="@+id/itemLotNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Lot Number"/>
+    <EditText
+        android:id="@+id/itemRecieved"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Received"/>
+    <EditText
+        android:id="@+id/itemUsed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Used"/>
+    <EditText
+        android:id="@+id/itemInventory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Inventory"/>
+    <EditText
+        android:id="@+id/itemShipped"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Shipped"/>
+    <EditText
+        android:id="@+id/itemDisposed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Disposed"/>
+    <EditText
+        android:id="@+id/itemReworked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Reworked"/>
+
+    <Button
+        android:id="@+id/buttonSaveItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="save" />
+
+</LinearLayout>
